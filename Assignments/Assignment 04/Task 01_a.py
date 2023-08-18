@@ -16,3 +16,8 @@ with open("input1.txt") as input_file, open("output1.txt","w") as output_file:
     for k in matrice:
         output_file.writelines(" ".join(map(str,k)))
         output_file.writelines('\n')
+
+
+''' First we read the number of edges and vertices, then we create a (n+1)*(n+1) matrice to store the graph. For the upcoming
+lines we just put the weight in the matrice, where u is the start node and v is the destination.
+'''
