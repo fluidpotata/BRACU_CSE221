@@ -50,7 +50,7 @@ with open("input1.txt") as input_file, open("output1.txt","w") as output_file:
     for i in range(1, len(in_degree)):
         if in_degree[i]==0:
             queue.append(i)
-            queue2.append(i)
+            #queue2.append(i)
 
     # print(queue)
     visited = [0 for i in range(n+1)]
